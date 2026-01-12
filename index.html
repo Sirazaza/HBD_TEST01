@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HBD 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="intro" class="screen active">
+  <h1>ของขวัญเล็ก ๆ 🤍</h1>
+  <p>หลบหัวใจให้รอด 1 นาที</p>
+  <button onclick="startGame()">เริ่มเล่น</button>
+</div>
+
+<div id="game" class="screen">
+  <p>⏱ เหลือ <span id="time">60</span> วิ</p>
+  <div id="play-area">
+    <div id="player"></div>
+  </div>
+</div>
+
+<div id="end" class="screen">
+  <!-- 👇 รูปเพื่อน แก้ไฟล์ตรง src -->
+  <img id="friendPic" src="friend.jpg" alt="friend">
+  <p id="msg"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

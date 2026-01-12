@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#ffe6f0, #fff);
+  text-align: center;
+  touch-action: none;
+}
+
+.screen {
+  display: none;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.screen.active {
+  display: flex;
+}
+
+button {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  background: #ff8fb1;
+  color: white;
+  font-size: 16px;
+}
+
+#play-area {
+  width: 90vw;
+  max-width: 320px;
+  height: 420px;
+  background: #fff;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#player {
+  width: 32px;
+  height: 32px;
+  background: #ff5d8f;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.enemy {
+  width: 26px;
+  height: 26px;
+  background: #ffb3c6;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+}
+
+/* 👇 แมวเพื่อน */
+.cat {
+  width: 28px;
+  height: 28px;
+  background: url("cat.png") center/cover no-repeat;
+  position: absolute;
+  top: -30px;
+}
+
+/* รูปเพื่อนตอนชนะ */
+#friendPic {
+  width: 160px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
