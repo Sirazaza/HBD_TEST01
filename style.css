@@ -57,7 +57,6 @@ button {
   top: -30px;
 }
 
-/* 👇 แมวเพื่อน */
 .cat {
   width: 28px;
   height: 28px;
@@ -66,7 +65,7 @@ button {
   top: -30px;
 }
 
-/* รูปเพื่อนตอนชนะ */
+
 #friendPic {
   width: 160px;
   border-radius: 20px;
